@@ -12,7 +12,7 @@ body {
   width: 550px;
   border: 6px solid #333;
   border-radius: 30px;
-  margin: 15em auto;
+  margin: 10em auto;
 }
 
 .header-wraper {
@@ -30,4 +30,8 @@ body {
 .header-logo-img {
   width: 84px;
   height: 42px;
+}
+
+.dog-img {
+  width: 100%;
 }
