@@ -57,12 +57,13 @@ h4 {
   font-size: 32px;
   font-weight: 600;
   color: f8f8f8;
-  bottom: 70px;
+  bottom: 65px;
 }
 
 .dog-bio {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
+  line-height: 23px;
   color: #b7b7b7;
   bottom: 30px;
 }
