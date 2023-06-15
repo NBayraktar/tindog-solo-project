@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+body,
+.badge-wraper {
+  width: 550px;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   border: 6px solid #333;
-  width: 550px;
   border-radius: 30px;
   margin: 10em auto;
   display: flex;
@@ -94,4 +98,19 @@ h4 {
 .reject-btn:hover,
 .reject-btn:focus {
   background: #ffe7ef;
+}
+
+.badge-wraper {
+  position: relative;
+}
+
+.like-img,
+.nope-img {
+  width: 233px;
+  height: 116px;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  transform: rotate(-25deg);
+  z-index: 1;
 }

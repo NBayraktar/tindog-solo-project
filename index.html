@@ -31,14 +31,16 @@
           <img src="images/icon-chat.png" class="header-img" alt="chat icon" />
         </div>
       </header>
-
+      <div class="badge-wraper">
+        
+      </div>
       <main">
         <div id="card" class="card"></div>
       </main>
 
       <section class="actions">
-        <button id="reject-button" class="btn reject-btn"><img src="images/icon-cross.png" /></button>
-        <button id="accept-button" class="btn accept-btn"><img src="images/icon-heart.png" /></button>
+        <button class="btn reject-btn" data-reject="card"><img src="images/icon-cross.png" data-reject="card"/></button>
+        <button class="btn accept-btn" data-accept="card"><img src="images/icon-heart.png" data-accept="card"/></button>
       </section>
 
     <script src="script.js" type="module"></script>
